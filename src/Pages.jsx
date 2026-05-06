@@ -1,0 +1,12 @@
+export { Page1 } from './components/page_1';
+export { Page2 } from './components/page_2';
+export { Page3 } from './components/page_3';
+export { Page4 } from './components/page_4';
+export { Page5 } from './components/page_5';
+export { Page6 } from './components/page_6';
+export { Page7 } from './components/page_7';
+export { Page8 } from './components/page_8';
+export { Page9 } from './components/page_9';
+export { Page10 } from './components/page_10';
+export { Page11 } from './components/page_11';
+export { Page12 } from './components/page_12';
