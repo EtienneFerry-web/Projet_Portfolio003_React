@@ -1,12 +1,7 @@
+
 export const Page10 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 10</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* BEST PORTFOLIO — top left */}
     <div className="absolute top-14 left-4 z-20">
@@ -20,7 +15,6 @@ export const Page10 = () => (
 
     {/* Arrow + 10. + text — bottom left */}
     <div className="absolute bottom-10 left-6 flex items-start gap-3 z-20">
-      <span className="text-2xl">↓</span>
       <span className="text-[5vw] font-light leading-none">10.</span>
       <div className="text-[12px] max-w-[160px] leading-4 mt-1">
         <span className="font-bold uppercase block">Ibe ritatia net amet, quis accab isint.</span>

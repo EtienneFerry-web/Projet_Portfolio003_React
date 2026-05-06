@@ -1,12 +1,7 @@
+
 export const Page8 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 08</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* Small photo — top left */}
     <div className="absolute top-14 left-8 w-[16%] h-[32%] z-10">
@@ -41,8 +36,5 @@ export const Page8 = () => (
         className="w-full h-full object-cover grayscale"
       />
     </div>
-
-    {/* Arrow bottom right */}
-    <div className="absolute bottom-8 right-8 text-2xl z-20">↓</div>
   </div>
 );

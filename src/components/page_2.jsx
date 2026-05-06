@@ -1,12 +1,7 @@
+
 export const Page2 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 02</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* Numbered list — top right */}
     <div className="absolute top-16 right-10 text-[13px] font-semibold uppercase leading-8 text-right z-20">

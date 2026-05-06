@@ -1,12 +1,7 @@
+
 export const Page7 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 07</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* ART OF STYLE — top left */}
     <div className="absolute top-14 left-4 z-20">
@@ -17,9 +12,6 @@ export const Page7 = () => (
 
     {/* 7 — top right */}
     <div className="absolute top-10 right-10 text-[10vw] font-light leading-none select-none z-20">7</div>
-
-    {/* Arrow bottom left */}
-    <div className="absolute bottom-8 left-8 text-2xl z-20">↓</div>
 
     {/* Small text — bottom center-left */}
     <div className="absolute bottom-[12%] left-[30%] text-[12px] max-w-[160px] leading-5 z-20">

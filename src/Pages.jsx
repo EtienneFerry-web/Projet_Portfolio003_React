@@ -1,3 +1,4 @@
+export { Navbar } from './components/Navbar';
 export { Page1 } from './components/page_1';
 export { Page2 } from './components/page_2';
 export { Page3 } from './components/page_3';

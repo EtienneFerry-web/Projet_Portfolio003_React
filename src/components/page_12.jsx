@@ -1,12 +1,7 @@
+
 export const Page12 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 12</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* INFO — top left */}
     <div className="absolute top-14 left-4 z-20">
@@ -31,9 +26,6 @@ export const Page12 = () => (
         <p className="text-gray-500 text-[10px] normal-case mt-1">hello@email.com</p>
       </div>
     </div>
-
-    {/* Arrow bottom center */}
-    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-2xl z-20">↓</div>
 
     {/* Portrait photo — bottom right */}
     <div className="absolute bottom-0 right-0 w-[36%] h-[65%] z-10">

@@ -1,12 +1,7 @@
+
 export const Page5 = () => (
-  <div className="relative w-full h-screen bg-[#111] text-white overflow-hidden flex flex-col items-center justify-center">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-600 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 05</span>
-    </div>
+  <div className="relative w-full h-screen snap-start bg-[#111] text-white overflow-hidden flex flex-col items-center justify-center">
+
 
     {/* Background portrait */}
     <div className="absolute inset-0 z-0">
@@ -28,8 +23,5 @@ export const Page5 = () => (
       Fuia a tincidunt adipiscing elit ut id, consectet niquet falen delectus at am ut lacte tempo.
       In per at, no sea nivar minim desare tempor lobortis nec et ullam que ultriqes per ulus que per consequat amet.
     </p>
-
-    {/* Arrow bottom right */}
-    <div className="absolute bottom-8 right-10 text-2xl z-20">↓</div>
   </div>
 );

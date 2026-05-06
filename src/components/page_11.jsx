@@ -1,15 +1,7 @@
-export const Page11 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 11</span>
-    </div>
 
-    {/* Arrow top left */}
-    <div className="absolute top-16 left-8 text-2xl z-20">↓</div>
+export const Page11 = () => (
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* OUR DEVICES — left */}
     <div className="absolute top-[30%] left-4 z-20">
@@ -19,11 +11,11 @@ export const Page11 = () => (
     </div>
 
     {/* Phone mockup — center */}
-    <div className="absolute top-[12%] left-[46%] w-[12%] h-[76%] border-[3px] border-black rounded-[3vw] overflow-hidden bg-white z-20">
+    <div className="absolute top-[12%] left-[46%] w-[12%] h-[76%] border-[3px] border-black rounded-[3vw] overflow-hidden bg-white z-0">
       <img
         src="https://gratisography.com/wp-content/uploads/2025/03/gratisography-robot-portrait-800x525.jpg"
         alt="Phone"
-        className="w-full h-full object-cover grayscale"
+        className="w-full h-full object-cover grayscale relative -z-10"
       />
     </div>
 

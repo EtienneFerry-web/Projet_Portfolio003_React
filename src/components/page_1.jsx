@@ -1,15 +1,7 @@
-export const Page1 = () => (
-  <div className="relative w-full h-screen bg-white overflow-hidden">
-    {/* Header meta */}
-    <div className="absolute top-5 left-8 right-8 flex items-start justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-20">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
-      <span>Page 01</span>
-    </div>
 
-    {/* Arrow */}
-    <div className="absolute top-16 left-8 text-2xl z-20">↓</div>
+export const Page1 = () => (
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+
 
     {/* Social icons */}
     <div className="absolute top-24 left-8 flex gap-1.5 z-20">
