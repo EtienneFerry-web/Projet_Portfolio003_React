@@ -8,9 +8,9 @@ export const Page6 = () => (
 
     {/* Small bold text — top center */}
     <div className="absolute top-16 left-[36%] text-[12px] max-w-[170px] leading-5 z-20">
-      <span className="font-bold uppercase block">Ibe ritatia net amet, quis accab isint.</span>
+      <span className="font-bold uppercase block">Rooted in over a decade of visual culture.</span>
       <span className="text-gray-500 mt-1 block">
-        Mis a in quat pro metendis qua nis domus, aut fugit uis ab ulitibus discidi at amet
+        From punk zines to luxury campaigns — our aesthetic has always lived at the edge of what's expected.
       </span>
     </div>
 

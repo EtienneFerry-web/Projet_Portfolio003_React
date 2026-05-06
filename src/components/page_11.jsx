@@ -30,7 +30,7 @@ export const Page11 = () => (
 
     {/* Small text — bottom center */}
     <div className="absolute bottom-8 left-[36%] text-[12px] max-w-[170px] font-bold uppercase leading-4 z-20">
-      Ibe ritatia net amet, quis accab isint.
+      Seamless experiences across every screen & surface.
     </div>
   </div>
 );

@@ -7,7 +7,7 @@ export const Page3 = () => (
     <div className="absolute top-16 left-[38%] flex items-start gap-4 z-20">
       <span className="text-[6vw] font-light leading-none">1.</span>
       <p className="text-[12px] uppercase font-bold leading-5 mt-2 max-w-[130px]">
-        Ibe ritatia net<br />amet, quis accab<br />isint.
+        Creative director<br />&amp; visual artist<br />based in Paris.
       </p>
     </div>
 

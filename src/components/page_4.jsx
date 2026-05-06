@@ -24,8 +24,8 @@ export const Page4 = () => (
 
     {/* Small text bottom right */}
     <div className="absolute bottom-12 right-10 text-[12px] max-w-[220px] text-right leading-5 z-20">
-      <p className="font-bold uppercase mb-1">Ibe ritatia net amet, quis accab isint.</p>
-      <p className="text-gray-500">Vis cust eum que doluptatque mo a in qua qui pos unterimda.</p>
+      <p className="font-bold uppercase mb-1">Strategy, identity & digital experiences.</p>
+      <p className="text-gray-500">We craft bold visual narratives that connect brands with the people who matter most.</p>
     </div>
   </div>
 );

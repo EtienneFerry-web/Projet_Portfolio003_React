@@ -20,8 +20,8 @@ export const Page5 = () => (
 
     {/* Body text */}
     <p className="relative z-10 text-[12px] text-center max-w-[55%] mt-8 text-gray-400 leading-6">
-      Fuia a tincidunt adipiscing elit ut id, consectet niquet falen delectus at am ut lacte tempo.
-      In per at, no sea nivar minim desare tempor lobortis nec et ullam que ultriqes per ulus que per consequat amet.
+      Every great project begins with a feeling — an atmosphere, a tension, an unsaid emotion.
+      Our mood-driven process translates raw inspiration into cohesive visual languages that resonate beyond the screen.
     </p>
   </div>
 );

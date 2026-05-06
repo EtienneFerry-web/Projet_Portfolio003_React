@@ -13,17 +13,17 @@ export const Page12 = () => (
       <div>
         <p className="font-bold">01</p>
         <p className="font-bold">About</p>
-        <p className="text-gray-500 text-[10px] normal-case leading-4 mt-1">Portfolio Presentation<br />Template</p>
+        <p className="text-gray-500 text-[10px] normal-case leading-4 mt-1">John Smith Studio<br />Paris, France</p>
       </div>
       <div>
         <p className="font-bold">02</p>
         <p className="font-bold">Phone</p>
-        <p className="text-gray-500 text-[10px] normal-case mt-1">+000 000 000</p>
+        <p className="text-gray-500 text-[10px] normal-case mt-1">+33 6 12 34 56 78</p>
       </div>
       <div>
         <p className="font-bold">03</p>
         <p className="font-bold">Online</p>
-        <p className="text-gray-500 text-[10px] normal-case mt-1">hello@email.com</p>
+        <p className="text-gray-500 text-[10px] normal-case mt-1">hello@johnsmith.studio</p>
       </div>
     </div>
 

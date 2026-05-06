@@ -17,7 +17,7 @@ export const Page10 = () => (
     <div className="absolute bottom-10 left-6 flex items-start gap-3 z-20">
       <span className="text-[5vw] font-light leading-none">10.</span>
       <div className="text-[12px] max-w-[160px] leading-4 mt-1">
-        <span className="font-bold uppercase block">Ibe ritatia net amet, quis accab isint.</span>
+        <span className="font-bold uppercase block">A selection of our finest work across print, digital & motion.</span>
       </div>
     </div>
 

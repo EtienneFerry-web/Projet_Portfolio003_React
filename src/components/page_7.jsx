@@ -15,9 +15,9 @@ export const Page7 = () => (
 
     {/* Small text — bottom center-left */}
     <div className="absolute bottom-[12%] left-[30%] text-[12px] max-w-[160px] leading-5 z-20">
-      <span className="font-bold uppercase block">Ibe ritatia net amet, quis accab isint.</span>
+      <span className="font-bold uppercase block">Fashion is a language. We make it fluent.</span>
       <span className="text-gray-500 mt-1 block">
-        Vis a in eum qua que ultriqes mo a in qua qui pos unterimda.
+        Styling, direction, and editorial work for brands that dare to stand apart from the noise.
       </span>
     </div>
 

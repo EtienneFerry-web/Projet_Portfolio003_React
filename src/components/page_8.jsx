@@ -23,8 +23,8 @@ export const Page8 = () => (
     <div className="absolute bottom-10 left-[28%] flex items-start gap-4 z-20">
       <span className="text-[5vw] font-light leading-none">8.</span>
       <div className="text-[12px] max-w-[180px] leading-5 mt-1">
-        <span className="font-bold uppercase block">Ibe ritatia net amet, quis accab isint.</span>
-        <span className="text-gray-500 mt-1 block">Mis a in qua qui pos enterimda uis dotem quis per ullam.</span>
+        <span className="font-bold uppercase block">Ideas that challenge the obvious.</span>
+        <span className="text-gray-500 mt-1 block">Each concept is built to provoke, engage, and leave a mark long after first contact.</span>
       </div>
     </div>
 

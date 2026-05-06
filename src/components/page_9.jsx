@@ -30,7 +30,7 @@ export const Page9 = () => (
         ))}
       </div>
       <p className="text-[12px] max-w-[130px] text-right font-bold uppercase leading-4">
-        Ibe ritatia net amet, quis accab isint.
+        Building brands that outlast trends.
       </p>
       <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0">
         <img
