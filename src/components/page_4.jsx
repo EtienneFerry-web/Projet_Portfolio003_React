@@ -9,23 +9,23 @@ export const Page4 = () => (
     {/* Photo — left half */}
     <div className="absolute left-0 top-[14%] w-[55%] h-[78%] z-10">
       <img
-        src="https://gratisography.com/wp-content/uploads/2025/04/gratisography-cool-car-cat-800x525.jpg"
-        alt="Model"
+        src="https://images.unsplash.com/photo-1511818966892-02280954d8a5?w=800&fit=crop"
+        alt="Architecture"
         className="w-full h-full object-cover grayscale"
       />
     </div>
 
-    {/* WHAT WE DO — right, overlapping */}
+    {/* NOS SERVICES — right, overlapping */}
     <div className="absolute right-4 top-[28%] z-20">
       <h2 className="text-[13vw] font-black uppercase tracking-tighter leading-[0.82] text-right select-none">
-        WHAT WE<br />DO
+        NOS<br />SERVICES
       </h2>
     </div>
 
     {/* Small text bottom right */}
     <div className="absolute bottom-12 right-10 text-[12px] max-w-[220px] text-right leading-5 z-20">
-      <p className="font-bold uppercase mb-1">Strategy, identity & digital experiences.</p>
-      <p className="text-gray-500">We craft bold visual narratives that connect brands with the people who matter most.</p>
+      <p className="font-bold uppercase mb-1">Architecture, intérieur & urbanisme.</p>
+      <p className="text-gray-500">Nous concevons des espaces qui façonnent le quotidien, du logement privé aux équipements publics.</p>
     </div>
   </div>
 );

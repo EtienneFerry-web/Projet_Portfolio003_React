@@ -26,9 +26,9 @@ export const Navbar = ({ totalPages, scrollRef }) => {
 
   return (
     <div className="fixed top-0 left-0 right-0 flex items-center justify-between text-[11px] text-gray-400 uppercase tracking-widest leading-tight z-50 px-8 py-4 backdrop-blur-md bg-white/10">
-      <span>blond.art</span>
-      <span>print</span>
-      <span className="text-center">creative studio guide<br />and brand</span>
+      <span>forma.arch</span>
+      <span>Paris — 2025</span>
+      <span className="text-center">architecture studio<br />&amp; urban design</span>
       <span>Page {String(currentPage).padStart(2, '0')}</span>
     </div>
   );

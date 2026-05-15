@@ -12,26 +12,26 @@ export const Page12 = () => (
     <div className="absolute bottom-10 left-8 flex gap-16 text-[12px] uppercase leading-6 z-20">
       <div>
         <p className="font-bold">01</p>
-        <p className="font-bold">About</p>
-        <p className="text-gray-500 text-[10px] normal-case leading-4 mt-1">John Smith Studio<br />Paris, France</p>
+        <p className="font-bold">Adresse</p>
+        <p className="text-gray-500 text-[10px] normal-case leading-4 mt-1">Forma Studio<br />12 rue de la Paix, Paris 75002</p>
       </div>
       <div>
         <p className="font-bold">02</p>
-        <p className="font-bold">Phone</p>
-        <p className="text-gray-500 text-[10px] normal-case mt-1">+33 6 12 34 56 78</p>
+        <p className="font-bold">Téléphone</p>
+        <p className="text-gray-500 text-[10px] normal-case mt-1">+33 1 42 68 00 00</p>
       </div>
       <div>
         <p className="font-bold">03</p>
-        <p className="font-bold">Online</p>
-        <p className="text-gray-500 text-[10px] normal-case mt-1">hello@johnsmith.studio</p>
+        <p className="font-bold">Contact</p>
+        <p className="text-gray-500 text-[10px] normal-case mt-1">contact@forma.studio</p>
       </div>
     </div>
 
-    {/* Portrait photo — bottom right */}
+    {/* Architecture photo — bottom right */}
     <div className="absolute bottom-0 right-0 w-[36%] h-[65%] z-10">
       <img
-        src="https://gratisography.com/wp-content/uploads/2025/04/gratisograph-mars-robot-800x525.jpg"
-        alt="Info"
+        src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?w=600&fit=crop"
+        alt="Architecture"
         className="w-full h-full object-cover grayscale"
       />
     </div>

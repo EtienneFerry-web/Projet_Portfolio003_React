@@ -3,10 +3,10 @@ export const Page7 = () => (
   <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
 
 
-    {/* ART OF STYLE — top left */}
+    {/* LOGEMENT — top left */}
     <div className="absolute top-14 left-4 z-20">
       <h2 className="text-[11vw] font-black uppercase tracking-tighter leading-none select-none">
-        ART OF STYLE
+        RÉSIDENTIEL
       </h2>
     </div>
 
@@ -15,25 +15,25 @@ export const Page7 = () => (
 
     {/* Small text — bottom center-left */}
     <div className="absolute bottom-[12%] left-[30%] text-[12px] max-w-[160px] leading-5 z-20">
-      <span className="font-bold uppercase block">Fashion is a language. We make it fluent.</span>
+      <span className="font-bold uppercase block">Des espaces de vie pensés pour durer.</span>
       <span className="text-gray-500 mt-1 block">
-        Styling, direction, and editorial work for brands that dare to stand apart from the noise.
+        Maisons individuelles, collectifs et réhabilitations — chaque logement est une réponse singulière.
       </span>
     </div>
 
-    {/* 2 photos — bottom right */}
+    {/* 2 building photos — bottom right */}
     <div className="absolute bottom-0 right-6 flex items-end gap-3 z-10">
       <div className="w-[24vw] h-[55vh]">
         <img
-          src="https://gratisography.com/wp-content/uploads/2025/05/gratisography-cat-bath-800x525.jpg"
-          alt="Style 1"
+          src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=600&fit=crop"
+          alt="Residential 1"
           className="w-full h-full object-cover grayscale"
         />
       </div>
       <div className="w-[18vw] h-[42vh]">
         <img
-          src="https://gratisography.com/wp-content/uploads/2025/04/gratisograph-mars-robot-800x525.jpg"
-          alt="Style 2"
+          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&fit=crop"
+          alt="Residential 2"
           className="w-full h-full object-cover grayscale"
         />
       </div>
