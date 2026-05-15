@@ -5,17 +5,20 @@ export const Page2 = () => (
 
     {/* Numbered list — top right */}
     <div className="absolute top-16 right-10 text-[13px] font-semibold uppercase leading-8 text-right z-20">
-      <p>1 &nbsp;À Propos</p>
-      <p>2 &nbsp;Projets</p>
-      <p>3 &nbsp;Philosophie</p>
-      <p>4 &nbsp;Processus</p>
-      <p>5 &nbsp;Contact</p>
+      <p className="text-gray-300">03 &nbsp;À Propos</p>
+      <p className="text-gray-300">04 &nbsp;Services</p>
+      <p className="text-gray-300">05 &nbsp;Philosophie</p>
+      <p className="text-gray-300">06 &nbsp;Histoire</p>
+      <p>07 &nbsp;Projets</p>
+      <p className="text-gray-300">09 &nbsp;Processus</p>
+      <p className="text-gray-300">10 &nbsp;Distinctions</p>
+      <p className="text-gray-300">12 &nbsp;Contact</p>
     </div>
 
     {/* Small photo — right, below list */}
-    <div className="absolute top-[40%] right-10 w-[22%] h-[35%] z-10">
+    <div className="absolute top-[42%] right-10 w-[22%] h-[28%] z-10">
       <img
-        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&fit=crop"
+        src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&fit=crop"
         alt="Architecture interior"
         className="w-full h-full object-cover grayscale"
       />

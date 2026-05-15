@@ -1,0 +1,92 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Villa Lumière",
+    type: "Résidentiel",
+    location: "Bordeaux, France",
+    year: 2023,
+    surface: "320 m²",
+    status: "Livré",
+    description:
+      "Implantée sur un terrain en pente dominant la Garonne, cette villa contemporaine joue sur la transparence et la continuité entre intérieur et extérieur. La structure en béton apparent dialogue avec les grandes baies vitrées pour créer une maison lumineuse à toute heure du jour. Les espaces de vie s'organisent en plateaux décalés qui suivent la topographie naturelle du terrain.",
+    cover: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=1200&fit=crop",
+    ],
+  },
+  {
+    id: 2,
+    title: "Médiathèque du Marais",
+    type: "Équipement culturel",
+    location: "Paris 3e, France",
+    year: 2022,
+    surface: "1 850 m²",
+    status: "Livré",
+    description:
+      "Reconversion d'un hôtel particulier du XVIIe siècle en médiathèque de quartier. Le projet préserve l'enveloppe historique tout en insérant un programme contemporain sur cinq niveaux. Un atrium central creusé dans la cour intérieure apporte lumière naturelle à tous les espaces de lecture. La façade sur rue est restaurée à l'identique tandis que l'intérieur assume pleinement sa contemporanéité.",
+    cover: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1524230572899-a752b3835840?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1481018085669-2bc6e4f00eed?w=1200&fit=crop",
+    ],
+  },
+  {
+    id: 3,
+    title: "Les Terrasses",
+    type: "Logement collectif",
+    location: "Lyon, France",
+    year: 2021,
+    surface: "4 200 m²",
+    status: "Livré",
+    description:
+      "Programme de 42 logements sociaux organisé en trois bandes parallèles orientées plein sud. Chaque appartement bénéficie d'une terrasse végétalisée qui constitue la signature formelle de l'ensemble. La façade en béton matricé reprend les motifs de la végétation environnante. La mixité des typologies — du T2 au T5 — assure une diversité sociale au sein d'un quartier en renouvellement urbain.",
+    cover: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1200&fit=crop",
+    ],
+  },
+  {
+    id: 4,
+    title: "Pavillon K",
+    type: "Tertiaire",
+    location: "Nantes, France",
+    year: 2020,
+    surface: "2 600 m²",
+    status: "Livré",
+    description:
+      "Immeuble de bureaux sur l'île de Nantes, en bordure de Loire. La double peau de verre sérigraphié filtre la lumière et réduit les apports solaires sans sacrifier les vues sur le fleuve. Le rez-de-chaussée ouvert sur la rue accueille des commerces et une salle polyvalente, assurant l'animation du socle urbain. La structure poteaux-poutres laisse les plateaux entièrement libres pour s'adapter à tous les usages tertiaires.",
+    cover: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&fit=crop",
+    ],
+  },
+  {
+    id: 5,
+    title: "École des Arts",
+    type: "Enseignement",
+    location: "Toulouse, France",
+    year: 2019,
+    surface: "3 100 m²",
+    status: "Livré",
+    description:
+      "École primaire de 18 classes conçue autour d'un préau couvert central qui sert de cœur de vie à l'établissement. Les salles de classe s'organisent en peigne autour de cet espace partagé, chacune dotée d'un jardin de classe privatif. La toiture végétalisée et les panneaux photovoltaïques s'inscrivent dans une démarche HQE exemplaire. L'architecture joue avec les couleurs et les matériaux pour stimuler la curiosité des enfants.",
+    cover: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?w=800&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&fit=crop",
+    ],
+  },
+];

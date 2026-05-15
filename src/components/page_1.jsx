@@ -12,7 +12,7 @@ export const Page1 = () => (
     {/* Building photo — top center */}
     <div className="absolute top-[8%] left-1/2 -translate-x-1/2 w-[28%] h-[65%] z-10">
       <img
-        src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&fit=crop"
+        src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?w=600&fit=crop"
         alt="Architecture"
         className="w-full h-full object-cover grayscale"
       />

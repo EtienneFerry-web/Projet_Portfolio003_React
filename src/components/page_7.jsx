@@ -1,42 +1,52 @@
+import { projects } from '../data/projects';
 
-export const Page7 = () => (
-  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+export const Page7 = ({ onProjectClick }) => (
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden flex flex-col">
 
-
-    {/* LOGEMENT — top left */}
-    <div className="absolute top-14 left-4 z-20">
-      <h2 className="text-[11vw] font-black uppercase tracking-tighter leading-none select-none">
-        RÉSIDENTIEL
+    {/* Header */}
+    <div className="flex items-baseline justify-between px-8 pt-20 pb-6 border-b border-gray-200">
+      <h2 className="text-[3.5vw] font-black uppercase tracking-tighter leading-none select-none">
+        Projets
       </h2>
-    </div>
-
-    {/* 7 — top right */}
-    <div className="absolute top-10 right-10 text-[10vw] font-light leading-none select-none z-20">7</div>
-
-    {/* Small text — bottom center-left */}
-    <div className="absolute bottom-[12%] left-[30%] text-[12px] max-w-[160px] leading-5 z-20">
-      <span className="font-bold uppercase block">Des espaces de vie pensés pour durer.</span>
-      <span className="text-gray-500 mt-1 block">
-        Maisons individuelles, collectifs et réhabilitations — chaque logement est une réponse singulière.
+      <span className="text-[10px] uppercase tracking-widest text-gray-400">
+        {projects.length} réalisations
       </span>
     </div>
 
-    {/* 2 building photos — bottom right */}
-    <div className="absolute bottom-0 right-6 flex items-end gap-3 z-10">
-      <div className="w-[24vw] h-[55vh]">
-        <img
-          src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=600&fit=crop"
-          alt="Residential 1"
-          className="w-full h-full object-cover grayscale"
-        />
-      </div>
-      <div className="w-[18vw] h-[42vh]">
-        <img
-          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&fit=crop"
-          alt="Residential 2"
-          className="w-full h-full object-cover grayscale"
-        />
-      </div>
+    {/* Project list */}
+    <div className="flex-1 overflow-hidden flex flex-col justify-evenly px-8">
+      {projects.map((p, i) => (
+        <button
+          key={p.id}
+          onClick={() => onProjectClick(p)}
+          className="group flex items-center justify-between py-4 border-b border-gray-100 hover:border-black transition-colors text-left w-full"
+        >
+          {/* Left: number + title */}
+          <div className="flex items-baseline gap-6">
+            <span className="text-[10px] text-gray-300 w-5 font-mono">{String(i + 1).padStart(2, '0')}</span>
+            <div>
+              <p className="text-[1.8vw] font-black uppercase tracking-tight leading-none group-hover:translate-x-2 transition-transform">
+                {p.title}
+              </p>
+              <p className="text-[10px] text-gray-400 uppercase tracking-wider mt-1">{p.type}</p>
+            </div>
+          </div>
+
+          {/* Center: thumbnail */}
+          <div className="w-[7vw] h-[5vw] overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity">
+            <img src={p.cover} alt={p.title} className="w-full h-full object-cover grayscale" />
+          </div>
+
+          {/* Right: location + year + arrow */}
+          <div className="flex items-center gap-8 text-right">
+            <div>
+              <p className="text-[11px] uppercase tracking-wider font-medium">{p.location}</p>
+              <p className="text-[10px] text-gray-400">{p.year} — {p.surface}</p>
+            </div>
+            <span className="text-gray-300 group-hover:text-black group-hover:translate-x-1 transition-all text-lg">→</span>
+          </div>
+        </button>
+      ))}
     </div>
   </div>
 );

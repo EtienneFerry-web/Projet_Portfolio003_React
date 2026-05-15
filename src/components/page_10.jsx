@@ -1,51 +1,51 @@
+const stats = [
+  { value: '20', label: 'Ans de pratique' },
+  { value: '52', label: 'Projets livrés' },
+  { value: '5', label: 'Prix nationaux' },
+  { value: '12', label: 'Architectes' },
+];
+
+const awards = [
+  { year: '2022', title: "Prix National de l'Architecture", project: 'Médiathèque du Marais' },
+  { year: '2021', title: 'Nominé Grand Prix AFEX', project: 'Les Terrasses, Lyon' },
+  { year: '2021', title: 'Label E+C-', project: 'Les Terrasses, Lyon' },
+  { year: '2020', title: 'Trophée Architecture Contemporaine', project: 'Pavillon K, Nantes' },
+  { year: '2019', title: "Mention Spéciale Équerre d'Argent", project: 'École des Arts, Toulouse' },
+];
 
 export const Page10 = () => (
-  <div className="relative w-full h-screen snap-start bg-white overflow-hidden">
+  <div className="relative w-full h-screen snap-start bg-white overflow-hidden flex flex-col px-10 pt-20 pb-10">
 
-
-    {/* RÉFÉRENCES — top left */}
-    <div className="absolute top-14 left-4 z-20">
-      <h2 className="text-[13vw] font-black uppercase tracking-tighter leading-[0.82] select-none">
-        NOS<br />RÉFÉRENCES
-      </h2>
+    {/* Header */}
+    <div className="flex items-baseline justify-between mb-10">
+      <div>
+        <p className="text-[10px] uppercase tracking-widest text-gray-400 mb-1">10 — Reconnaissance</p>
+        <h2 className="text-[5vw] font-black uppercase tracking-tighter leading-none select-none">
+          Distinctions
+        </h2>
+      </div>
+      <span className="text-[10vw] font-light text-gray-100 leading-none select-none">10</span>
     </div>
 
-    {/* 10 — top right */}
-    <div className="absolute top-10 right-10 text-[10vw] font-light leading-none select-none z-20">10</div>
-
-    {/* 10. + text — bottom left */}
-    <div className="absolute bottom-10 left-6 flex items-start gap-3 z-20">
-      <span className="text-[5vw] font-light leading-none">10.</span>
-      <div className="text-[12px] max-w-[160px] leading-4 mt-1">
-        <span className="font-bold uppercase block">Une sélection de réalisations primées en France et à l'étranger.</span>
-      </div>
+    {/* Stats */}
+    <div className="grid grid-cols-4 gap-6 mb-12 border-t border-b border-gray-100 py-8">
+      {stats.map(({ value, label }) => (
+        <div key={label}>
+          <p className="text-[6vw] font-black leading-none tracking-tighter">{value}</p>
+          <p className="text-[10px] uppercase tracking-wider text-gray-400 mt-2">{label}</p>
+        </div>
+      ))}
     </div>
 
-    {/* 3 photos grid — bottom right */}
-    <div className="absolute bottom-6 right-8 flex flex-col gap-2 z-10">
-      <div className="flex gap-2">
-        <div className="w-[16vw] h-[26vh]">
-          <img
-            src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=400&fit=crop"
-            alt="Ref 1"
-            className="w-full h-full object-cover grayscale"
-          />
+    {/* Awards list */}
+    <div className="flex-1 flex flex-col justify-evenly">
+      {awards.map(({ year, title, project }) => (
+        <div key={title} className="flex items-baseline justify-between border-b border-gray-100 pb-4">
+          <span className="text-[10px] text-gray-300 font-mono w-10">{year}</span>
+          <span className="flex-1 mx-6 text-[12px] font-bold uppercase tracking-wide">{title}</span>
+          <span className="text-[11px] text-gray-400 uppercase tracking-wider">{project}</span>
         </div>
-        <div className="w-[16vw] h-[26vh]">
-          <img
-            src="https://images.unsplash.com/photo-1524230572899-a752b3835840?w=400&fit=crop"
-            alt="Ref 2"
-            className="w-full h-full object-cover grayscale"
-          />
-        </div>
-      </div>
-      <div className="w-[33vw] h-[22vh]">
-        <img
-          src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=800&fit=crop"
-          alt="Ref 3"
-          className="w-full h-full object-cover grayscale"
-        />
-      </div>
+      ))}
     </div>
   </div>
 );

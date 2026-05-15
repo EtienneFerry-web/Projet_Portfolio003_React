@@ -6,7 +6,7 @@ export const Page5 = () => (
     {/* Background building */}
     <div className="absolute inset-0 z-0">
       <img
-        src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&fit=crop"
+        src="https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=1200&fit=crop"
         alt=""
         className="w-full h-full object-cover grayscale opacity-30"
       />

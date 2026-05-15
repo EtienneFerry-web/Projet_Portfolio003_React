@@ -13,7 +13,7 @@ export const Page11 = () => (
     {/* Render mockup frame — center */}
     <div className="absolute top-[12%] left-[46%] w-[12%] h-[76%] border-[3px] border-black rounded-[0.5vw] overflow-hidden bg-white z-0">
       <img
-        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&fit=crop"
+        src="https://images.unsplash.com/photo-1497215842964-222b430dc094?w=400&fit=crop"
         alt="BIM render"
         className="w-full h-full object-cover grayscale relative -z-10"
       />
@@ -22,7 +22,7 @@ export const Page11 = () => (
     {/* Architecture photo — right */}
     <div className="absolute right-0 top-[10%] w-[32%] h-[82%] z-10">
       <img
-        src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&fit=crop"
+        src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=600&fit=crop"
         alt="Architecture"
         className="w-full h-full object-cover grayscale"
       />

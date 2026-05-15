@@ -30,7 +30,7 @@ export const Page12 = () => (
     {/* Architecture photo — bottom right */}
     <div className="absolute bottom-0 right-0 w-[36%] h-[65%] z-10">
       <img
-        src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?w=600&fit=crop"
+        src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=600&fit=crop"
         alt="Architecture"
         className="w-full h-full object-cover grayscale"
       />
